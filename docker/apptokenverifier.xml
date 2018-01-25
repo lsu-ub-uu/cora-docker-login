@@ -7,6 +7,6 @@
 		override="false" />
 	<Parameter name="gatekeeperURL" value="http://gatekeeper:8080/gatekeeper/"
 		override="false" />
-			<Parameter name="publicPathToSystem" value="/systemone/apptokenverifier/rest/"
+			<Parameter name="appTokenVerifierPublicPathToSystem" value="/systemone/apptokenverifier/rest/"
 		override="false" />
 </Context>
