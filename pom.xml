@@ -20,12 +20,12 @@
 
 	<artifactId>cora-docker-apptokenverifier</artifactId>
 	<packaging>pom</packaging>
-	<version>0.3-SNAPSHOT</version>
+	<version>0.4-SNAPSHOT</version>
 	<name>apptokenverifier docker</name>
 
 	<properties>
 		<apptokenverifier.version>0.3-SNAPSHOT</apptokenverifier.version>
-		<basicstorage.version>0.5-SNAPSHOT</basicstorage.version>
+		<basicstorage.version>0.6-SNAPSHOT</basicstorage.version>
 	</properties>
 
 	<scm>
