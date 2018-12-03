@@ -1,4 +1,4 @@
-FROM  tomcat:9.0-jre10-slim
+FROM  tomcat:9.0-jre11-slim
 
 COPY /apptokenverifier.war /usr/local/tomcat/webapps/apptokenverifier.war
 COPY /apptokenverifier.xml /usr/local/tomcat/conf/Catalina/localhost/apptokenverifier.xml

@@ -24,19 +24,19 @@
 	<parent>
 		<groupId>se.uu.ub.cora</groupId>
 		<artifactId>cora-parent</artifactId>
-		<version>0.7-SNAPSHOT</version>
+		<version>0.8-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>cora-docker-apptokenverifier</artifactId>
 	<packaging>pom</packaging>
-	<version>0.5-SNAPSHOT</version>
+	<version>0.6-SNAPSHOT</version>
 	<name>apptokenverifier docker</name>
 
 	<properties>
 		<outputDirectory>${project.build.directory}/docker2</outputDirectory>
 
-		<apptokenverifier.version>0.4-SNAPSHOT</apptokenverifier.version>
-		<basicstorage.version>0.8-SNAPSHOT</basicstorage.version>
+		<apptokenverifier.version>0.5-SNAPSHOT</apptokenverifier.version>
+		<basicstorage.version>0.9-SNAPSHOT</basicstorage.version>
 	</properties>
 
 	<scm>
