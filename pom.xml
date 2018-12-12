@@ -33,8 +33,8 @@
 	<properties>
 		<outputDirectory>${project.build.directory}/docker2</outputDirectory>
 
-		<apptokenverifier.version>0.5.0</apptokenverifier.version>
-		<basicstorage.version>0.9.0</basicstorage.version>
+		<apptokenverifier.version>0.5.1</apptokenverifier.version>
+		<basicstorage.version>0.9.1</basicstorage.version>
 	</properties>
 
 	<scm>
