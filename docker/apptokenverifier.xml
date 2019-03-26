@@ -5,7 +5,7 @@
 		override="false" />
 	<Parameter name="appTokenStorageClassName" value="se.uu.ub.cora.storage.AppTokenStorageImp"
 		override="false" />
-	<Parameter name="gatekeeperURL" value="http://gatekeeper:8080/gatekeeper/"
+	<Parameter name="gatekeeperURL" value="http://gatekeeper:8080/gatekeeperserver/"
 		override="false" />
 	<Parameter name="apptokenVerifierPublicPathToSystem" value="${apptokenverifier.public.path.to.system}"
 		override="false" />
