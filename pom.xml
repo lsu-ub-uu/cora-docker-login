@@ -98,8 +98,6 @@
 							<overWriteReleases>true</overWriteReleases>
 							<overWriteSnapshots>true</overWriteSnapshots>
 							<overWriteIfNewer>true</overWriteIfNewer>
-							<excludeTransitive>true</excludeTransitive>
-							<stripVersion>true</stripVersion>
 						</configuration>
 					</execution>
 				</executions>
