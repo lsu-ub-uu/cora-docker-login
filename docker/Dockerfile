@@ -4,7 +4,7 @@ COPY /apptokenverifier*.war /usr/local/tomcat/webapps/apptokenverifier.war
 COPY /apptokenverifier.xml /usr/local/tomcat/conf/Catalina/localhost/apptokenverifier.xml
 
 COPY /*.jar /usr/local/tomcat/lib/
-
+COPY /*.properties /usr/local/tomcat/lib/
 
 #build with:
 #maven build
