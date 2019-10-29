@@ -22,7 +22,7 @@
 	<parent>
 		<groupId>se.uu.ub.cora</groupId>
 		<artifactId>cora-parent</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.2</version>
 	</parent>
 
 	<artifactId>cora-docker-apptokenverifier</artifactId>
@@ -33,9 +33,9 @@
 	<properties>
 		<outputDirectory>${project.build.directory}/docker2</outputDirectory>
 
-		<coralog4j.version>1.0.0</coralog4j.version>
-		<apptokenverifier.version>1.1.0</apptokenverifier.version>
-		<basicstorage.version>1.3.0</basicstorage.version>
+		<coralog4j.version>2.0.0</coralog4j.version>
+		<apptokenverifier.version>2.0.0</apptokenverifier.version>
+		<basicstorage.version>2.1.0</basicstorage.version>
 	</properties>
 
 	<scm>
