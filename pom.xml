@@ -35,6 +35,7 @@
 
 		<coralog4j.version>2.0.0</coralog4j.version>
 		<apptokenverifier.version>2.0.0</apptokenverifier.version>
+		<storage.version>2.1.0</storage.version>
 		<basicstorage.version>2.1.0</basicstorage.version>
 	</properties>
 
@@ -58,6 +59,12 @@
 			<version>${apptokenverifier.version}</version>
 			<type>war</type>
 			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>storage</artifactId>
+			<version>${storage.version}</version>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
