@@ -37,7 +37,7 @@
 		<apptokenverifier.version>2.1.0</apptokenverifier.version>
 		<storage.version>3.3.0</storage.version>
 		<searchstorage.version>3.3.0</searchstorage.version>
-		<basicstorage.version>3.6.0</basicstorage.version>
+		<basicstorage.version>3.8.0</basicstorage.version>
 	</properties>
 
 	<scm>
