@@ -1,4 +1,4 @@
-FROM  tomcat:9.0.27-jdk12-adoptopenjdk-hotspot
+FROM  tomcat:9.0.37-jdk14-openjdk-buster
 
 COPY /apptokenverifier*.war /usr/local/tomcat/webapps/apptokenverifier.war
 COPY /apptokenverifier.xml /usr/local/tomcat/conf/Catalina/localhost/apptokenverifier.xml
