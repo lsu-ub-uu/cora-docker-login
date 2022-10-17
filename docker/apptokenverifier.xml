@@ -9,4 +9,5 @@
 		override="false" />
 	<Parameter name="apptokenVerifierPublicPathToSystem" value="${apptokenverifier.public.path.to.system}"
 		override="false" />
+	<Parameter name="storageType" value="memory" override="false" />
 </Context>
