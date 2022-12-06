@@ -34,17 +34,16 @@
 		<outputDirectory>${project.build.directory}/docker2</outputDirectory>
 		<exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
 		<cora-docker-tomcat.version>2.1.0</cora-docker-tomcat.version>
-		
-		<cora-apptokenverifier-war.version>2.13-SNAPSHOT</cora-apptokenverifier-war.version>
 
+		<cora-apptokenverifier-war.version>2.13-SNAPSHOT</cora-apptokenverifier-war.version>
 	</properties>
 
 	<scm>
 		<connection>scm:git:https://github.com/lsu-ub-uu/cora-docker-apptokenverifier.git</connection>
 		<developerConnection>scm:git:https://github.com/lsu-ub-uu/cora-docker-apptokenverifier.git</developerConnection>
 		<url>https://github.com/lsu-ub-uu/cora-docker-apptokenverifier.git</url>
-	  <tag>HEAD</tag>
-  </scm>
+		<tag>HEAD</tag>
+	</scm>
 
 	<dependencies>
 		<dependency>
@@ -60,7 +59,7 @@
 			<version>${cora-apptokenverifier-war.version}</version>
 			<type>war</type>
 		</dependency>
-		</dependencies>
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
