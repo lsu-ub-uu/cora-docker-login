@@ -18,4 +18,6 @@
 		type="javax.sql.DataSource" driverClassName="org.postgresql.Driver"
 		url="${dburl}" username="${dbusername}" password="${dbpassword}"
 		maxTotal="20000" maxIdle="10" maxWaitMillis="-1" />
+		
+	<Parameter name="doNotCache" value="true" override="false" />
 </Context>
