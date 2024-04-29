@@ -9,8 +9,8 @@
 		value="se.uu.ub.cora.storage.AppTokenStorageImp" override="false" />
 	<Parameter name="gatekeeperURL"
 		value="http://gatekeeper:8080/gatekeeperserver/" override="false" />
-	<Parameter name="apptokenVerifierPublicPathToSystem"
-		value="${apptokenverifier.public.path.to.system}" override="false" />
+	<Parameter name="loginPublicPathToSystem"
+		value="${login.public.path.to.system}" override="false" />
 
 	<Parameter name="coraDatabaseLookupName"
 		value="java:/comp/env/jdbc/postgres" override="false" />

@@ -25,23 +25,23 @@
 		<version>2.5.0</version>
 	</parent>
 
-	<artifactId>cora-docker-apptokenverifier</artifactId>
+	<artifactId>cora-docker-login</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>apptokenverifier docker</name>
+	<name>Login docker</name>
 
 	<properties>
 		<outputDirectory>${project.build.directory}/docker2</outputDirectory>
 		<exec-maven-plugin.version>3.2.0</exec-maven-plugin.version>
 		<cora-docker-tomcat.version>2.2.0</cora-docker-tomcat.version>
 
-		<cora-apptokenverifier-war.version>2.20-SNAPSHOT</cora-apptokenverifier-war.version>
+		<cora-login-war.version>1.0-SNAPSHOT</cora-login-war.version>
 	</properties>
 
 	<scm>
-		<connection>scm:git:https://github.com/lsu-ub-uu/cora-docker-apptokenverifier.git</connection>
-		<developerConnection>scm:git:https://github.com/lsu-ub-uu/cora-docker-apptokenverifier.git</developerConnection>
-		<url>https://github.com/lsu-ub-uu/cora-docker-apptokenverifier.git</url>
+		<connection>scm:git:https://github.com/lsu-ub-uu/cora-docker-login.git</connection>
+		<developerConnection>scm:git:https://github.com/lsu-ub-uu/cora-docker-login.git</developerConnection>
+		<url>https://github.com/lsu-ub-uu/cora-docker-login.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -55,8 +55,8 @@
 		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
-			<artifactId>cora-apptokenverifier-war</artifactId>
-			<version>${cora-apptokenverifier-war.version}</version>
+			<artifactId>cora-login-war</artifactId>
+			<version>${cora-login-war.version}</version>
 			<type>war</type>
 		</dependency>
 	</dependencies>
