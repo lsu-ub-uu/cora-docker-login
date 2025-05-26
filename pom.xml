@@ -31,7 +31,7 @@
 	<name>Login docker</name>
 
 	<properties>
-		<cora-docker-tomcat.version>2.5.0</cora-docker-tomcat.version>
+		<cora-docker-tomcat.version>2.6.0</cora-docker-tomcat.version>
 		<cora-login-war.version>3.10.0</cora-login-war.version>
 		<!-- Override property so docker-build profile activates in this module -->
 		<docker.build.activate>true</docker.build.activate>
